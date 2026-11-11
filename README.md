@@ -13,6 +13,17 @@ drawio-to-html ./sample.drawio.svg
 
 Go **1.27.4** を使用します。
 
+`go install` でインストールできます。
+
+```sh
+go install github.com/yuyj109/drawio-to-html@latest
+drawio-to-html ./sample.drawio.svg
+```
+
+インストール先（`GOBIN`、未設定の場合は `$(go env GOPATH)/bin`）を `PATH` に追加してください。
+
+ソースからビルド・インストールする場合：
+
 ```sh
 make build
 ./bin/drawio-to-html ./sample.drawio.svg
