@@ -1,0 +1,4 @@
+/bin/
+/drawio-to-html
+*.svg.html
+.DS_Store
